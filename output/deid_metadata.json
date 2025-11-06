@@ -1,0 +1,525 @@
+{
+  "source": "input/lab1.pdf",
+  "raw_text_path": "output\\original_ocr.txt",
+  "redacted_text_path": "output\\redacted_text.txt",
+  "entities": [
+    {
+      "entity_type": "PERSON",
+      "original_text": "Kamal Diagnostic Center\n\nPatient",
+      "replacement": "[NAME1]",
+      "start": 0,
+      "end": 32
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Dummy",
+      "replacement": "[NAME2]",
+      "start": 43,
+      "end": 48
+    },
+    {
+      "entity_type": "REFERRED_BY",
+      "original_text": "Dr. Self Date",
+      "replacement": "[REFERRED_BY]",
+      "start": 82,
+      "end": 95
+    },
+    {
+      "entity_type": "REG_NO",
+      "original_text": "1024",
+      "replacement": "[REG_NO]",
+      "start": 125,
+      "end": 129
+    },
+    {
+      "entity_type": "UHID",
+      "original_text": "1024",
+      "replacement": "[UHID]",
+      "start": 136,
+      "end": 140
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Sachin Sharma\nDMLT",
+      "replacement": "[NAME3]",
+      "start": 754,
+      "end": 772
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "A. K. Asthana\nMBBS",
+      "replacement": "[NAME4]",
+      "start": 792,
+      "end": 810
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "MD",
+      "replacement": "[LOCATION]",
+      "start": 812,
+      "end": 814
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "New Delhi",
+      "replacement": "[LOCATION]",
+      "start": 875,
+      "end": 884
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Dummy",
+      "replacement": "[NAME5]",
+      "start": 943,
+      "end": 948
+    },
+    {
+      "entity_type": "REFERRED_BY",
+      "original_text": "Dr. Self Date",
+      "replacement": "[REFERRED_BY]",
+      "start": 982,
+      "end": 995
+    },
+    {
+      "entity_type": "REG_NO",
+      "original_text": "1024",
+      "replacement": "[REG_NO]",
+      "start": 1025,
+      "end": 1029
+    },
+    {
+      "entity_type": "UHID",
+      "original_text": "1024",
+      "replacement": "[UHID]",
+      "start": 1036,
+      "end": 1040
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Sachin Sharma",
+      "replacement": "[NAME6]",
+      "start": 1849,
+      "end": 1862
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "A. K. Asthana\nDMLT",
+      "replacement": "[NAME7]",
+      "start": 1867,
+      "end": 1885
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "MD",
+      "replacement": "[LOCATION]",
+      "start": 1906,
+      "end": 1908
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "New Delhi",
+      "replacement": "[LOCATION]",
+      "start": 1967,
+      "end": 1976
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "Kamal Diagnostic Center\n\nPatient",
+      "replacement": "[LOCATION]",
+      "start": 1990,
+      "end": 2022
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Dummy",
+      "replacement": "[NAME8]",
+      "start": 2033,
+      "end": 2038
+    },
+    {
+      "entity_type": "REFERRED_BY",
+      "original_text": "Dr. Self Date",
+      "replacement": "[REFERRED_BY]",
+      "start": 2073,
+      "end": 2086
+    },
+    {
+      "entity_type": "REG_NO",
+      "original_text": "1024",
+      "replacement": "[REG_NO]",
+      "start": 2117,
+      "end": 2121
+    },
+    {
+      "entity_type": "UHID",
+      "original_text": "1024",
+      "replacement": "[UHID]",
+      "start": 2128,
+      "end": 2132
+    },
+    {
+      "entity_type": "PHONE_NUMBER",
+      "original_text": "0.64 1.5-3.5",
+      "replacement": "[PHONE]",
+      "start": 2426,
+      "end": 2438
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Sachin Sharma\nDMLT",
+      "replacement": "[NAME9]",
+      "start": 2845,
+      "end": 2863
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "A. K. Asthana\nMBBS",
+      "replacement": "[NAME10]",
+      "start": 2883,
+      "end": 2901
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "MD",
+      "replacement": "[LOCATION]",
+      "start": 2903,
+      "end": 2905
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "New Delhi",
+      "replacement": "[LOCATION]",
+      "start": 2964,
+      "end": 2973
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Dummy",
+      "replacement": "[NAME11]",
+      "start": 3031,
+      "end": 3036
+    },
+    {
+      "entity_type": "REFERRED_BY",
+      "original_text": "Dr. Self Date",
+      "replacement": "[REFERRED_BY]",
+      "start": 3070,
+      "end": 3083
+    },
+    {
+      "entity_type": "REG_NO",
+      "original_text": "1024",
+      "replacement": "[REG_NO]",
+      "start": 3113,
+      "end": 3117
+    },
+    {
+      "entity_type": "UHID",
+      "original_text": "1024",
+      "replacement": "[UHID]",
+      "start": 3124,
+      "end": 3128
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "Sul",
+      "replacement": "[LOCATION]",
+      "start": 3375,
+      "end": 3378
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Sachin Sharma\nDMLT",
+      "replacement": "[NAME12]",
+      "start": 3384,
+      "end": 3402
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "A. K. Asthana\nMBBS",
+      "replacement": "[NAME13]",
+      "start": 3422,
+      "end": 3440
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "MD",
+      "replacement": "[LOCATION]",
+      "start": 3442,
+      "end": 3444
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "New Delhi",
+      "replacement": "[LOCATION]",
+      "start": 3503,
+      "end": 3512
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "Kamal Diagnostic Center\n\nPatient",
+      "replacement": "[LOCATION]",
+      "start": 3526,
+      "end": 3558
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Dummy",
+      "replacement": "[NAME14]",
+      "start": 3569,
+      "end": 3574
+    },
+    {
+      "entity_type": "REFERRED_BY",
+      "original_text": "Dr. Self Date",
+      "replacement": "[REFERRED_BY]",
+      "start": 3608,
+      "end": 3621
+    },
+    {
+      "entity_type": "REG_NO",
+      "original_text": "1024",
+      "replacement": "[REG_NO]",
+      "start": 3651,
+      "end": 3655
+    },
+    {
+      "entity_type": "UHID",
+      "original_text": "1024",
+      "replacement": "[UHID]",
+      "start": 3662,
+      "end": 3666
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Sachin\nDMLT",
+      "replacement": "[NAME15]",
+      "start": 4177,
+      "end": 4188
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Sharma\nIncharge",
+      "replacement": "[NAME16]",
+      "start": 4199,
+      "end": 4214
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "A. K. Asthana\nMBBS",
+      "replacement": "[NAME17]",
+      "start": 4220,
+      "end": 4238
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "MD",
+      "replacement": "[LOCATION]",
+      "start": 4240,
+      "end": 4242
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "New Delhi",
+      "replacement": "[LOCATION]",
+      "start": 4301,
+      "end": 4310
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "Kamal Diagnostic Center\n\nPatient",
+      "replacement": "[LOCATION]",
+      "start": 4324,
+      "end": 4356
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Dummy",
+      "replacement": "[NAME18]",
+      "start": 4367,
+      "end": 4372
+    },
+    {
+      "entity_type": "REFERRED_BY",
+      "original_text": "Dr. Self Date",
+      "replacement": "[REFERRED_BY]",
+      "start": 4406,
+      "end": 4419
+    },
+    {
+      "entity_type": "REG_NO",
+      "original_text": "1024",
+      "replacement": "[REG_NO]",
+      "start": 4449,
+      "end": 4453
+    },
+    {
+      "entity_type": "UHID",
+      "original_text": "1024",
+      "replacement": "[UHID]",
+      "start": 4460,
+      "end": 4464
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Sachin Sharma",
+      "replacement": "[NAME19]",
+      "start": 4713,
+      "end": 4726
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "A. K. Asthana\nDMLT",
+      "replacement": "[NAME20]",
+      "start": 4731,
+      "end": 4749
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "MD",
+      "replacement": "[LOCATION]",
+      "start": 4770,
+      "end": 4772
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "New Delhi",
+      "replacement": "[LOCATION]",
+      "start": 4831,
+      "end": 4840
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Dummy",
+      "replacement": "[NAME21]",
+      "start": 4898,
+      "end": 4903
+    },
+    {
+      "entity_type": "REFERRED_BY",
+      "original_text": "Dr. Self Date",
+      "replacement": "[REFERRED_BY]",
+      "start": 4937,
+      "end": 4950
+    },
+    {
+      "entity_type": "REG_NO",
+      "original_text": "1024",
+      "replacement": "[REG_NO]",
+      "start": 4980,
+      "end": 4984
+    },
+    {
+      "entity_type": "UHID",
+      "original_text": "1024",
+      "replacement": "[UHID]",
+      "start": 4991,
+      "end": 4995
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Serum Triiodothyronine",
+      "replacement": "[NAME22]",
+      "start": 5123,
+      "end": 5145
+    },
+    {
+      "entity_type": "PHONE_NUMBER",
+      "original_text": "0.69 - 2.15",
+      "replacement": "[PHONE]",
+      "start": 5161,
+      "end": 5172
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Sachin Sharma",
+      "replacement": "[NAME23]",
+      "start": 5281,
+      "end": 5294
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "A. K. Asthana\nDMLT",
+      "replacement": "[NAME24]",
+      "start": 5299,
+      "end": 5317
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "MD",
+      "replacement": "[LOCATION]",
+      "start": 5338,
+      "end": 5340
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "New Delhi",
+      "replacement": "[LOCATION]",
+      "start": 5399,
+      "end": 5408
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "Kamal Diagnostic Center\n\nPatient",
+      "replacement": "[LOCATION]",
+      "start": 5422,
+      "end": 5454
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Dummy",
+      "replacement": "[NAME25]",
+      "start": 5465,
+      "end": 5470
+    },
+    {
+      "entity_type": "REFERRED_BY",
+      "original_text": "Dr. Self Date",
+      "replacement": "[REFERRED_BY]",
+      "start": 5504,
+      "end": 5517
+    },
+    {
+      "entity_type": "REG_NO",
+      "original_text": "1024",
+      "replacement": "[REG_NO]",
+      "start": 5547,
+      "end": 5551
+    },
+    {
+      "entity_type": "UHID",
+      "original_text": "1024",
+      "replacement": "[UHID]",
+      "start": 5558,
+      "end": 5562
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Sachin Sharma",
+      "replacement": "[NAME26]",
+      "start": 5945,
+      "end": 5958
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "A. K. Asthana\nDMLT",
+      "replacement": "[NAME27]",
+      "start": 5963,
+      "end": 5981
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "MD",
+      "replacement": "[LOCATION]",
+      "start": 6002,
+      "end": 6004
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "New Delhi",
+      "replacement": "[LOCATION]",
+      "start": 6063,
+      "end": 6072
+    }
+  ]
+}

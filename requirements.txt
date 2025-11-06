@@ -1,0 +1,10 @@
+presidio-analyzer
+presidio-anonymizer
+presidio-image-redactor
+pytesseract
+pillow
+opencv-python
+PyMuPDF
+easyocr
+spacy
+python-dotenv
