@@ -1,525 +1,1449 @@
 {
-  "source": "input/lab1.pdf",
+  "source": "input/lab3.pdf",
   "raw_text_path": "output\\original_ocr.txt",
   "redacted_text_path": "output\\redacted_text.txt",
   "entities": [
     {
       "entity_type": "PERSON",
-      "original_text": "Kamal Diagnostic Center\n\nPatient",
+      "original_text": "Lyubochka Svetka Lab",
       "replacement": "[NAME1]",
-      "start": 0,
-      "end": 32
+      "start": 210,
+      "end": 230
     },
     {
       "entity_type": "PERSON",
-      "original_text": "Dummy",
+      "original_text": "Paldi",
       "replacement": "[NAME2]",
-      "start": 43,
-      "end": 48
-    },
-    {
-      "entity_type": "REFERRED_BY",
-      "original_text": "Dr. Self Date",
-      "replacement": "[REFERRED_BY]",
-      "start": 82,
-      "end": 95
-    },
-    {
-      "entity_type": "REG_NO",
-      "original_text": "1024",
-      "replacement": "[REG_NO]",
-      "start": 125,
-      "end": 129
-    },
-    {
-      "entity_type": "UHID",
-      "original_text": "1024",
-      "replacement": "[UHID]",
-      "start": 136,
-      "end": 140
+      "start": 578,
+      "end": 583
     },
     {
       "entity_type": "PERSON",
-      "original_text": "Sachin Sharma\nDMLT",
+      "original_text": "Sanjeev Shah",
       "replacement": "[NAME3]",
-      "start": 754,
-      "end": 772
+      "start": 1744,
+      "end": 1756
     },
     {
       "entity_type": "PERSON",
-      "original_text": "A. K. Asthana\nMBBS",
+      "original_text": "Yash Shah",
       "replacement": "[NAME4]",
-      "start": 792,
-      "end": 810
+      "start": 1818,
+      "end": 1827
     },
     {
       "entity_type": "LOCATION",
-      "original_text": "MD",
+      "original_text": "Sankalp Square II",
       "replacement": "[LOCATION]",
-      "start": 812,
-      "end": 814
-    },
-    {
-      "entity_type": "LOCATION",
-      "original_text": "New Delhi",
-      "replacement": "[LOCATION]",
-      "start": 875,
-      "end": 884
+      "start": 1962,
+      "end": 1979
     },
     {
       "entity_type": "PERSON",
-      "original_text": "Dummy",
+      "original_text": "Ellisbridge",
       "replacement": "[NAME5]",
-      "start": 943,
-      "end": 948
+      "start": 2053,
+      "end": 2064
     },
     {
-      "entity_type": "REFERRED_BY",
-      "original_text": "Dr. Self Date",
-      "replacement": "[REFERRED_BY]",
-      "start": 982,
-      "end": 995
+      "entity_type": "LOCATION",
+      "original_text": "Anmedabad",
+      "replacement": "[LOCATION]",
+      "start": 2066,
+      "end": 2075
     },
     {
-      "entity_type": "REG_NO",
-      "original_text": "1024",
-      "replacement": "[REG_NO]",
-      "start": 1025,
-      "end": 1029
+      "entity_type": "PHONE_NUMBER",
+      "original_text": "812 813 0000",
+      "replacement": "[PHONE]",
+      "start": 2099,
+      "end": 2111
     },
     {
-      "entity_type": "UHID",
-      "original_text": "1024",
-      "replacement": "[UHID]",
-      "start": 1036,
-      "end": 1040
+      "entity_type": "EMAIL_ADDRESS",
+      "original_text": "customer.care@sterlingaccuris.com",
+      "replacement": "[EMAIL]",
+      "start": 2120,
+      "end": 2153
     },
     {
       "entity_type": "PERSON",
-      "original_text": "Sachin Sharma",
+      "original_text": "Lyubochka Svetka Lab",
       "replacement": "[NAME6]",
-      "start": 1849,
-      "end": 1862
+      "start": 2315,
+      "end": 2335
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "Locati\nSewAge",
+      "replacement": "[LOCATION]",
+      "start": 2406,
+      "end": 2419
     },
     {
       "entity_type": "PERSON",
-      "original_text": "A. K. Asthana\nDMLT",
+      "original_text": "Sanjeev Shah",
       "replacement": "[NAME7]",
-      "start": 1867,
-      "end": 1885
-    },
-    {
-      "entity_type": "LOCATION",
-      "original_text": "MD",
-      "replacement": "[LOCATION]",
-      "start": 1906,
-      "end": 1908
-    },
-    {
-      "entity_type": "LOCATION",
-      "original_text": "New Delhi",
-      "replacement": "[LOCATION]",
-      "start": 1967,
-      "end": 1976
-    },
-    {
-      "entity_type": "LOCATION",
-      "original_text": "Kamal Diagnostic Center\n\nPatient",
-      "replacement": "[LOCATION]",
-      "start": 1990,
-      "end": 2022
+      "start": 2682,
+      "end": 2694
     },
     {
       "entity_type": "PERSON",
-      "original_text": "Dummy",
+      "original_text": "Yash Shah",
       "replacement": "[NAME8]",
-      "start": 2033,
-      "end": 2038
+      "start": 2992,
+      "end": 3001
     },
     {
-      "entity_type": "REFERRED_BY",
-      "original_text": "Dr. Self Date",
-      "replacement": "[REFERRED_BY]",
-      "start": 2073,
-      "end": 2086
-    },
-    {
-      "entity_type": "REG_NO",
-      "original_text": "1024",
-      "replacement": "[REG_NO]",
-      "start": 2117,
-      "end": 2121
-    },
-    {
-      "entity_type": "UHID",
-      "original_text": "1024",
-      "replacement": "[UHID]",
-      "start": 2128,
-      "end": 2132
-    },
-    {
-      "entity_type": "PHONE_NUMBER",
-      "original_text": "0.64 1.5-3.5",
-      "replacement": "[PHONE]",
-      "start": 2426,
-      "end": 2438
+      "entity_type": "LOCATION",
+      "original_text": "Sankalp Square II",
+      "replacement": "[LOCATION]",
+      "start": 3136,
+      "end": 3153
     },
     {
       "entity_type": "PERSON",
-      "original_text": "Sachin Sharma\nDMLT",
+      "original_text": "Ellisbridge",
       "replacement": "[NAME9]",
-      "start": 2845,
-      "end": 2863
-    },
-    {
-      "entity_type": "PERSON",
-      "original_text": "A. K. Asthana\nMBBS",
-      "replacement": "[NAME10]",
-      "start": 2883,
-      "end": 2901
+      "start": 3227,
+      "end": 3238
     },
     {
       "entity_type": "LOCATION",
-      "original_text": "MD",
+      "original_text": "Anmedabad",
       "replacement": "[LOCATION]",
-      "start": 2903,
-      "end": 2905
-    },
-    {
-      "entity_type": "LOCATION",
-      "original_text": "New Delhi",
-      "replacement": "[LOCATION]",
-      "start": 2964,
-      "end": 2973
-    },
-    {
-      "entity_type": "PERSON",
-      "original_text": "Dummy",
-      "replacement": "[NAME11]",
-      "start": 3031,
-      "end": 3036
-    },
-    {
-      "entity_type": "REFERRED_BY",
-      "original_text": "Dr. Self Date",
-      "replacement": "[REFERRED_BY]",
-      "start": 3070,
-      "end": 3083
-    },
-    {
-      "entity_type": "REG_NO",
-      "original_text": "1024",
-      "replacement": "[REG_NO]",
-      "start": 3113,
-      "end": 3117
-    },
-    {
-      "entity_type": "UHID",
-      "original_text": "1024",
-      "replacement": "[UHID]",
-      "start": 3124,
-      "end": 3128
-    },
-    {
-      "entity_type": "LOCATION",
-      "original_text": "Sul",
-      "replacement": "[LOCATION]",
-      "start": 3375,
-      "end": 3378
-    },
-    {
-      "entity_type": "PERSON",
-      "original_text": "Sachin Sharma\nDMLT",
-      "replacement": "[NAME12]",
-      "start": 3384,
-      "end": 3402
-    },
-    {
-      "entity_type": "PERSON",
-      "original_text": "A. K. Asthana\nMBBS",
-      "replacement": "[NAME13]",
-      "start": 3422,
-      "end": 3440
-    },
-    {
-      "entity_type": "LOCATION",
-      "original_text": "MD",
-      "replacement": "[LOCATION]",
-      "start": 3442,
-      "end": 3444
-    },
-    {
-      "entity_type": "LOCATION",
-      "original_text": "New Delhi",
-      "replacement": "[LOCATION]",
-      "start": 3503,
-      "end": 3512
-    },
-    {
-      "entity_type": "LOCATION",
-      "original_text": "Kamal Diagnostic Center\n\nPatient",
-      "replacement": "[LOCATION]",
-      "start": 3526,
-      "end": 3558
-    },
-    {
-      "entity_type": "PERSON",
-      "original_text": "Dummy",
-      "replacement": "[NAME14]",
-      "start": 3569,
-      "end": 3574
-    },
-    {
-      "entity_type": "REFERRED_BY",
-      "original_text": "Dr. Self Date",
-      "replacement": "[REFERRED_BY]",
-      "start": 3608,
-      "end": 3621
-    },
-    {
-      "entity_type": "REG_NO",
-      "original_text": "1024",
-      "replacement": "[REG_NO]",
-      "start": 3651,
-      "end": 3655
-    },
-    {
-      "entity_type": "UHID",
-      "original_text": "1024",
-      "replacement": "[UHID]",
-      "start": 3662,
-      "end": 3666
-    },
-    {
-      "entity_type": "PERSON",
-      "original_text": "Sachin\nDMLT",
-      "replacement": "[NAME15]",
-      "start": 4177,
-      "end": 4188
-    },
-    {
-      "entity_type": "PERSON",
-      "original_text": "Sharma\nIncharge",
-      "replacement": "[NAME16]",
-      "start": 4199,
-      "end": 4214
-    },
-    {
-      "entity_type": "PERSON",
-      "original_text": "A. K. Asthana\nMBBS",
-      "replacement": "[NAME17]",
-      "start": 4220,
-      "end": 4238
-    },
-    {
-      "entity_type": "LOCATION",
-      "original_text": "MD",
-      "replacement": "[LOCATION]",
-      "start": 4240,
-      "end": 4242
-    },
-    {
-      "entity_type": "LOCATION",
-      "original_text": "New Delhi",
-      "replacement": "[LOCATION]",
-      "start": 4301,
-      "end": 4310
-    },
-    {
-      "entity_type": "LOCATION",
-      "original_text": "Kamal Diagnostic Center\n\nPatient",
-      "replacement": "[LOCATION]",
-      "start": 4324,
-      "end": 4356
-    },
-    {
-      "entity_type": "PERSON",
-      "original_text": "Dummy",
-      "replacement": "[NAME18]",
-      "start": 4367,
-      "end": 4372
-    },
-    {
-      "entity_type": "REFERRED_BY",
-      "original_text": "Dr. Self Date",
-      "replacement": "[REFERRED_BY]",
-      "start": 4406,
-      "end": 4419
-    },
-    {
-      "entity_type": "REG_NO",
-      "original_text": "1024",
-      "replacement": "[REG_NO]",
-      "start": 4449,
-      "end": 4453
-    },
-    {
-      "entity_type": "UHID",
-      "original_text": "1024",
-      "replacement": "[UHID]",
-      "start": 4460,
-      "end": 4464
-    },
-    {
-      "entity_type": "PERSON",
-      "original_text": "Sachin Sharma",
-      "replacement": "[NAME19]",
-      "start": 4713,
-      "end": 4726
-    },
-    {
-      "entity_type": "PERSON",
-      "original_text": "A. K. Asthana\nDMLT",
-      "replacement": "[NAME20]",
-      "start": 4731,
-      "end": 4749
-    },
-    {
-      "entity_type": "LOCATION",
-      "original_text": "MD",
-      "replacement": "[LOCATION]",
-      "start": 4770,
-      "end": 4772
-    },
-    {
-      "entity_type": "LOCATION",
-      "original_text": "New Delhi",
-      "replacement": "[LOCATION]",
-      "start": 4831,
-      "end": 4840
-    },
-    {
-      "entity_type": "PERSON",
-      "original_text": "Dummy",
-      "replacement": "[NAME21]",
-      "start": 4898,
-      "end": 4903
-    },
-    {
-      "entity_type": "REFERRED_BY",
-      "original_text": "Dr. Self Date",
-      "replacement": "[REFERRED_BY]",
-      "start": 4937,
-      "end": 4950
-    },
-    {
-      "entity_type": "REG_NO",
-      "original_text": "1024",
-      "replacement": "[REG_NO]",
-      "start": 4980,
-      "end": 4984
-    },
-    {
-      "entity_type": "UHID",
-      "original_text": "1024",
-      "replacement": "[UHID]",
-      "start": 4991,
-      "end": 4995
-    },
-    {
-      "entity_type": "PERSON",
-      "original_text": "Serum Triiodothyronine",
-      "replacement": "[NAME22]",
-      "start": 5123,
-      "end": 5145
+      "start": 3240,
+      "end": 3249
     },
     {
       "entity_type": "PHONE_NUMBER",
-      "original_text": "0.69 - 2.15",
+      "original_text": "812 813 0000",
       "replacement": "[PHONE]",
-      "start": 5161,
-      "end": 5172
+      "start": 3273,
+      "end": 3285
+    },
+    {
+      "entity_type": "EMAIL_ADDRESS",
+      "original_text": "customer.care@sterlingaccuris.com",
+      "replacement": "[EMAIL]",
+      "start": 3294,
+      "end": 3327
     },
     {
       "entity_type": "PERSON",
-      "original_text": "Sachin Sharma",
+      "original_text": "Lyubochka Svetka Lab",
+      "replacement": "[NAME10]",
+      "start": 3496,
+      "end": 3516
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "Trigl",
+      "replacement": "[LOCATION]",
+      "start": 3861,
+      "end": 3866
+    },
+    {
+      "entity_type": "PHONE_NUMBER",
+      "original_text": "168.0",
+      "replacement": "[PHONE]",
+      "start": 3876,
+      "end": 3881
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Purvish Darji",
+      "replacement": "[NAME11]",
+      "start": 4099,
+      "end": 4112
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Sanjeev Shah",
+      "replacement": "[NAME12]",
+      "start": 4117,
+      "end": 4129
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Yash Shah",
+      "replacement": "[NAME13]",
+      "start": 4703,
+      "end": 4712
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "Sankalp Square II",
+      "replacement": "[LOCATION]",
+      "start": 4845,
+      "end": 4862
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Ellisbridge",
+      "replacement": "[NAME14]",
+      "start": 4936,
+      "end": 4947
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "Anmedabad",
+      "replacement": "[LOCATION]",
+      "start": 4949,
+      "end": 4958
+    },
+    {
+      "entity_type": "PHONE_NUMBER",
+      "original_text": "812 813 0000",
+      "replacement": "[PHONE]",
+      "start": 4982,
+      "end": 4994
+    },
+    {
+      "entity_type": "EMAIL_ADDRESS",
+      "original_text": "customer.care@sterlingaccuris.com",
+      "replacement": "[EMAIL]",
+      "start": 5003,
+      "end": 5036
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Lyubochka Svetka Lab",
+      "replacement": "[NAME15]",
+      "start": 5205,
+      "end": 5225
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Purvish Darji",
+      "replacement": "[NAME16]",
+      "start": 5557,
+      "end": 5570
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Sanjeev Shah",
+      "replacement": "[NAME17]",
+      "start": 5575,
+      "end": 5587
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Yash Shah",
+      "replacement": "[NAME18]",
+      "start": 5889,
+      "end": 5898
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "Sankalp Square II",
+      "replacement": "[LOCATION]",
+      "start": 6033,
+      "end": 6050
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Ellisbridge",
+      "replacement": "[NAME19]",
+      "start": 6124,
+      "end": 6135
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "Anmedabad",
+      "replacement": "[LOCATION]",
+      "start": 6137,
+      "end": 6146
+    },
+    {
+      "entity_type": "PHONE_NUMBER",
+      "original_text": "812 813 0000",
+      "replacement": "[PHONE]",
+      "start": 6170,
+      "end": 6182
+    },
+    {
+      "entity_type": "EMAIL_ADDRESS",
+      "original_text": "customer.care@sterlingaccuris.com",
+      "replacement": "[EMAIL]",
+      "start": 6191,
+      "end": 6224
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Lyubochka Svetka\n\nSex/Age : Male/41Y\n\nRef",
+      "replacement": "[NAME20]",
+      "start": 6302,
+      "end": 6343
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "ali",
+      "replacement": "[NAME21]",
+      "start": 6707,
+      "end": 6710
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "HbA",
+      "replacement": "[NAME22]",
+      "start": 8462,
+      "end": 8465
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Sanjeev Shah",
       "replacement": "[NAME23]",
-      "start": 5281,
-      "end": 5294
+      "start": 8544,
+      "end": 8556
     },
     {
       "entity_type": "PERSON",
-      "original_text": "A. K. Asthana\nDMLT",
+      "original_text": "Yash Shah",
       "replacement": "[NAME24]",
-      "start": 5299,
-      "end": 5317
+      "start": 8618,
+      "end": 8627
     },
     {
       "entity_type": "LOCATION",
-      "original_text": "MD",
+      "original_text": "Sankalp Square II",
       "replacement": "[LOCATION]",
-      "start": 5338,
-      "end": 5340
-    },
-    {
-      "entity_type": "LOCATION",
-      "original_text": "New Delhi",
-      "replacement": "[LOCATION]",
-      "start": 5399,
-      "end": 5408
-    },
-    {
-      "entity_type": "LOCATION",
-      "original_text": "Kamal Diagnostic Center\n\nPatient",
-      "replacement": "[LOCATION]",
-      "start": 5422,
-      "end": 5454
+      "start": 8762,
+      "end": 8779
     },
     {
       "entity_type": "PERSON",
-      "original_text": "Dummy",
+      "original_text": "Ellisbridge",
       "replacement": "[NAME25]",
-      "start": 5465,
-      "end": 5470
+      "start": 8853,
+      "end": 8864
     },
     {
-      "entity_type": "REFERRED_BY",
-      "original_text": "Dr. Self Date",
-      "replacement": "[REFERRED_BY]",
-      "start": 5504,
-      "end": 5517
+      "entity_type": "LOCATION",
+      "original_text": "Anmedabad",
+      "replacement": "[LOCATION]",
+      "start": 8866,
+      "end": 8875
     },
     {
-      "entity_type": "REG_NO",
-      "original_text": "1024",
-      "replacement": "[REG_NO]",
-      "start": 5547,
-      "end": 5551
+      "entity_type": "PHONE_NUMBER",
+      "original_text": "812 813 0000",
+      "replacement": "[PHONE]",
+      "start": 8899,
+      "end": 8911
     },
     {
-      "entity_type": "UHID",
-      "original_text": "1024",
-      "replacement": "[UHID]",
-      "start": 5558,
-      "end": 5562
+      "entity_type": "EMAIL_ADDRESS",
+      "original_text": "customer.care@sterlingaccuris.com",
+      "replacement": "[EMAIL]",
+      "start": 8919,
+      "end": 8952
     },
     {
       "entity_type": "PERSON",
-      "original_text": "Sachin Sharma",
+      "original_text": "Lyubochka Svetka Lab",
       "replacement": "[NAME26]",
-      "start": 5945,
-      "end": 5958
+      "start": 9196,
+      "end": 9216
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "ia",
+      "replacement": "[LOCATION]",
+      "start": 10163,
+      "end": 10165
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "Internined T4",
+      "replacement": "[LOCATION]",
+      "start": 10278,
+      "end": 10291
     },
     {
       "entity_type": "PERSON",
-      "original_text": "A. K. Asthana\nDMLT",
+      "original_text": "Raised Raised",
       "replacement": "[NAME27]",
-      "start": 5963,
-      "end": 5981
+      "start": 10528,
+      "end": 10541
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "sterok\u00e9s",
+      "replacement": "[NAME28]",
+      "start": 10726,
+      "end": 10734
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Becneased",
+      "replacement": "[NAME29]",
+      "start": 10750,
+      "end": 10759
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Faised o\u00a2",
+      "replacement": "[NAME30]",
+      "start": 10777,
+      "end": 10786
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Dancreatesd Rased",
+      "replacement": "[NAME31]",
+      "start": 11122,
+      "end": 11139
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Mulincdular",
+      "replacement": "[NAME32]",
+      "start": 11191,
+      "end": 11202
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Silent",
+      "replacement": "[NAME33]",
+      "start": 11258,
+      "end": 11264
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Postvital",
+      "replacement": "[NAME34]",
+      "start": 11280,
+      "end": 11289
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Purvish Darji",
+      "replacement": "[NAME35]",
+      "start": 11478,
+      "end": 11491
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Sanjeev Shah",
+      "replacement": "[NAME36]",
+      "start": 11496,
+      "end": 11508
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Yash Shah",
+      "replacement": "[NAME37]",
+      "start": 11512,
+      "end": 11521
     },
     {
       "entity_type": "LOCATION",
-      "original_text": "MD",
+      "original_text": "Sankalp Square II",
       "replacement": "[LOCATION]",
-      "start": 6002,
-      "end": 6004
+      "start": 11720,
+      "end": 11737
     },
     {
       "entity_type": "LOCATION",
-      "original_text": "New Delhi",
+      "original_text": "Ahmedabad",
       "replacement": "[LOCATION]",
-      "start": 6063,
-      "end": 6072
+      "start": 11824,
+      "end": 11833
+    },
+    {
+      "entity_type": "PHONE_NUMBER",
+      "original_text": "812 813 0000",
+      "replacement": "[PHONE]",
+      "start": 11857,
+      "end": 11869
+    },
+    {
+      "entity_type": "EMAIL_ADDRESS",
+      "original_text": "customer.care@sterlingaccuris.com",
+      "replacement": "[EMAIL]",
+      "start": 11878,
+      "end": 11911
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Lyubochka Svetka Lab",
+      "replacement": "[NAME38]",
+      "start": 12153,
+      "end": 12173
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Paldi",
+      "replacement": "[NAME39]",
+      "start": 12530,
+      "end": 12535
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Microalbuminuria",
+      "replacement": "[NAME40]",
+      "start": 12806,
+      "end": 12822
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Bennett PH",
+      "replacement": "[NAME41]",
+      "start": 13502,
+      "end": 13512
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Haffner S",
+      "replacement": "[NAME42]",
+      "start": 13514,
+      "end": 13523
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Kasiske BL",
+      "replacement": "[NAME43]",
+      "start": 13525,
+      "end": 13535
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Krolewski",
+      "replacement": "[NAME44]",
+      "start": 13840,
+      "end": 13849
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Oliveira JR",
+      "replacement": "[NAME45]",
+      "start": 14058,
+      "end": 14069
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Purvish Darji",
+      "replacement": "[NAME46]",
+      "start": 14253,
+      "end": 14266
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Sanjeev Shah",
+      "replacement": "[NAME47]",
+      "start": 14271,
+      "end": 14283
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Yash Shah",
+      "replacement": "[NAME48]",
+      "start": 14287,
+      "end": 14296
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "Sankalp Square II",
+      "replacement": "[LOCATION]",
+      "start": 14496,
+      "end": 14513
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Ellisbridge",
+      "replacement": "[NAME49]",
+      "start": 14587,
+      "end": 14598
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "Anmedabad",
+      "replacement": "[LOCATION]",
+      "start": 14600,
+      "end": 14609
+    },
+    {
+      "entity_type": "PHONE_NUMBER",
+      "original_text": "812 813 0000",
+      "replacement": "[PHONE]",
+      "start": 14633,
+      "end": 14645
+    },
+    {
+      "entity_type": "EMAIL_ADDRESS",
+      "original_text": "customer.care@sterlingaccuris.com",
+      "replacement": "[EMAIL]",
+      "start": 14654,
+      "end": 14687
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Lyubochka Svetka Lab",
+      "replacement": "[NAME50]",
+      "start": 14856,
+      "end": 14876
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Purvish Darji",
+      "replacement": "[NAME51]",
+      "start": 15524,
+      "end": 15537
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Sanjeev Shah",
+      "replacement": "[NAME52]",
+      "start": 15542,
+      "end": 15554
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Yash Shah",
+      "replacement": "[NAME53]",
+      "start": 15917,
+      "end": 15926
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "Sankalp Square II",
+      "replacement": "[LOCATION]",
+      "start": 16059,
+      "end": 16076
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Ellisbridge",
+      "replacement": "[NAME54]",
+      "start": 16150,
+      "end": 16161
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "Anmedabad",
+      "replacement": "[LOCATION]",
+      "start": 16163,
+      "end": 16172
+    },
+    {
+      "entity_type": "PHONE_NUMBER",
+      "original_text": "812 813 0000",
+      "replacement": "[PHONE]",
+      "start": 16196,
+      "end": 16208
+    },
+    {
+      "entity_type": "EMAIL_ADDRESS",
+      "original_text": "customer.care@sterlingaccuris.com",
+      "replacement": "[EMAIL]",
+      "start": 16217,
+      "end": 16250
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Lyubochka Svetka Lab",
+      "replacement": "[NAME55]",
+      "start": 16419,
+      "end": 16439
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Purvish Darji",
+      "replacement": "[NAME56]",
+      "start": 16853,
+      "end": 16866
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Sanjeev Shah",
+      "replacement": "[NAME57]",
+      "start": 16871,
+      "end": 16883
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Yash Shah",
+      "replacement": "[NAME58]",
+      "start": 17225,
+      "end": 17234
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "Sankalp Square II",
+      "replacement": "[LOCATION]",
+      "start": 17367,
+      "end": 17384
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Ellisbridge",
+      "replacement": "[NAME59]",
+      "start": 17458,
+      "end": 17469
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "Anmedabad",
+      "replacement": "[LOCATION]",
+      "start": 17471,
+      "end": 17480
+    },
+    {
+      "entity_type": "PHONE_NUMBER",
+      "original_text": "812 813 0000",
+      "replacement": "[PHONE]",
+      "start": 17504,
+      "end": 17516
+    },
+    {
+      "entity_type": "EMAIL_ADDRESS",
+      "original_text": "customer.care@sterlingaccuris.com",
+      "replacement": "[EMAIL]",
+      "start": 17525,
+      "end": 17558
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Lyubochka Svetka Lab",
+      "replacement": "[NAME60]",
+      "start": 17801,
+      "end": 17821
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "petnple Type Woop Process",
+      "replacement": "[NAME61]",
+      "start": 18111,
+      "end": 18136
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Purvish Darji",
+      "replacement": "[NAME62]",
+      "start": 19825,
+      "end": 19838
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Sanjeev Shah",
+      "replacement": "[NAME63]",
+      "start": 19843,
+      "end": 19855
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Yash Shah",
+      "replacement": "[NAME64]",
+      "start": 19859,
+      "end": 19868
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "Sankalp Square II",
+      "replacement": "[LOCATION]",
+      "start": 20069,
+      "end": 20086
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Ellisbridge",
+      "replacement": "[NAME65]",
+      "start": 20160,
+      "end": 20171
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "Anmedabad",
+      "replacement": "[LOCATION]",
+      "start": 20173,
+      "end": 20182
+    },
+    {
+      "entity_type": "PHONE_NUMBER",
+      "original_text": "812 813 0000",
+      "replacement": "[PHONE]",
+      "start": 20206,
+      "end": 20218
+    },
+    {
+      "entity_type": "EMAIL_ADDRESS",
+      "original_text": "customer.care@sterlingaccuris.com",
+      "replacement": "[EMAIL]",
+      "start": 20227,
+      "end": 20260
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Lyubochka Svetka\nSex/Age",
+      "replacement": "[NAME66]",
+      "start": 20338,
+      "end": 20362
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Nat",
+      "replacement": "[NAME67]",
+      "start": 20604,
+      "end": 20607
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Purvish Darji",
+      "replacement": "[NAME68]",
+      "start": 20690,
+      "end": 20703
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Sanjeev Shah",
+      "replacement": "[NAME69]",
+      "start": 21042,
+      "end": 21054
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Paldi",
+      "replacement": "[NAME70]",
+      "start": 21320,
+      "end": 21325
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Yash Shah",
+      "replacement": "[NAME71]",
+      "start": 21552,
+      "end": 21561
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "Sankalp Square II",
+      "replacement": "[LOCATION]",
+      "start": 21696,
+      "end": 21713
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Ellisbridge",
+      "replacement": "[NAME72]",
+      "start": 21787,
+      "end": 21798
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "Anmedabad",
+      "replacement": "[LOCATION]",
+      "start": 21800,
+      "end": 21809
+    },
+    {
+      "entity_type": "PHONE_NUMBER",
+      "original_text": "812 813 0000",
+      "replacement": "[PHONE]",
+      "start": 21833,
+      "end": 21845
+    },
+    {
+      "entity_type": "EMAIL_ADDRESS",
+      "original_text": "customer.care@sterlingaccuris.com",
+      "replacement": "[EMAIL]",
+      "start": 21853,
+      "end": 21886
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Lyubochka Svetka Lab",
+      "replacement": "[NAME73]",
+      "start": 22134,
+      "end": 22154
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "petnple Type Woop Process",
+      "replacement": "[NAME74]",
+      "start": 22447,
+      "end": 22472
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Anmedabad Paldi",
+      "replacement": "[NAME75]",
+      "start": 22498,
+      "end": 22513
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Steatorrhea",
+      "replacement": "[NAME76]",
+      "start": 23127,
+      "end": 23138
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "ng",
+      "replacement": "[NAME77]",
+      "start": 23901,
+      "end": 23903
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Sanjeev Shah",
+      "replacement": "[NAME78]",
+      "start": 24279,
+      "end": 24291
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Yash Shah",
+      "replacement": "[NAME79]",
+      "start": 24295,
+      "end": 24304
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "MD Path",
+      "replacement": "[NAME80]",
+      "start": 24320,
+      "end": 24327
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "Sankalp Square II",
+      "replacement": "[LOCATION]",
+      "start": 24510,
+      "end": 24527
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Ellisbridge",
+      "replacement": "[NAME81]",
+      "start": 24601,
+      "end": 24612
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "Anmedabad",
+      "replacement": "[LOCATION]",
+      "start": 24614,
+      "end": 24623
+    },
+    {
+      "entity_type": "PHONE_NUMBER",
+      "original_text": "812 813 0000",
+      "replacement": "[PHONE]",
+      "start": 24647,
+      "end": 24659
+    },
+    {
+      "entity_type": "EMAIL_ADDRESS",
+      "original_text": "customer.care@sterlingaccuris.com",
+      "replacement": "[EMAIL]",
+      "start": 24668,
+      "end": 24701
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Lyubochka Svetka Lab",
+      "replacement": "[NAME82]",
+      "start": 24946,
+      "end": 24966
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "petnple Type Woop Process",
+      "replacement": "[NAME83]",
+      "start": 25258,
+      "end": 25283
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Leukocytosis",
+      "replacement": "[NAME84]",
+      "start": 25592,
+      "end": 25604
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Diphyllobothrium",
+      "replacement": "[NAME85]",
+      "start": 25869,
+      "end": 25885
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "Hypochlorhydria",
+      "replacement": "[LOCATION]",
+      "start": 25953,
+      "end": 25968
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Sanjeev Shah",
+      "replacement": "[NAME86]",
+      "start": 27017,
+      "end": 27029
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Yash Shah",
+      "replacement": "[NAME87]",
+      "start": 27033,
+      "end": 27042
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "MD Path",
+      "replacement": "[NAME88]",
+      "start": 27058,
+      "end": 27065
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "Sankalp Square II",
+      "replacement": "[LOCATION]",
+      "start": 27248,
+      "end": 27265
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Ellisbridge",
+      "replacement": "[NAME89]",
+      "start": 27339,
+      "end": 27350
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "Anmedabad",
+      "replacement": "[LOCATION]",
+      "start": 27352,
+      "end": 27361
+    },
+    {
+      "entity_type": "PHONE_NUMBER",
+      "original_text": "812 813 0000",
+      "replacement": "[PHONE]",
+      "start": 27385,
+      "end": 27397
+    },
+    {
+      "entity_type": "EMAIL_ADDRESS",
+      "original_text": "customer.care@sterlingaccuris.com",
+      "replacement": "[EMAIL]",
+      "start": 27406,
+      "end": 27439
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Lyubochka Svetka Lab",
+      "replacement": "[NAME90]",
+      "start": 27681,
+      "end": 27701
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "petnple Type Woop Process",
+      "replacement": "[NAME91]",
+      "start": 27994,
+      "end": 28019
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Anmedabad Paldi",
+      "replacement": "[NAME92]",
+      "start": 28045,
+      "end": 28060
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Indwelling",
+      "replacement": "[NAME93]",
+      "start": 28884,
+      "end": 28894
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Purvish Darji",
+      "replacement": "[NAME94]",
+      "start": 29702,
+      "end": 29715
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Sanjeev Shah",
+      "replacement": "[NAME95]",
+      "start": 29720,
+      "end": 29732
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Yash Shah",
+      "replacement": "[NAME96]",
+      "start": 29736,
+      "end": 29745
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "Sankalp Square II",
+      "replacement": "[LOCATION]",
+      "start": 29946,
+      "end": 29963
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Ellisbridge",
+      "replacement": "[NAME97]",
+      "start": 30037,
+      "end": 30048
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "Anmedabad",
+      "replacement": "[LOCATION]",
+      "start": 30050,
+      "end": 30059
+    },
+    {
+      "entity_type": "PHONE_NUMBER",
+      "original_text": "812 813 0000",
+      "replacement": "[PHONE]",
+      "start": 30083,
+      "end": 30095
+    },
+    {
+      "entity_type": "EMAIL_ADDRESS",
+      "original_text": "customer.care@sterlingaccuris.com",
+      "replacement": "[EMAIL]",
+      "start": 30104,
+      "end": 30137
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Lyubochka Svetka Lab",
+      "replacement": "[NAME98]",
+      "start": 30372,
+      "end": 30392
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "petnple Type Woop Process",
+      "replacement": "[NAME99]",
+      "start": 30683,
+      "end": 30708
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Anmedabad Paldi",
+      "replacement": "[NAME100]",
+      "start": 30734,
+      "end": 30749
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Purvish Darji",
+      "replacement": "[NAME101]",
+      "start": 32183,
+      "end": 32196
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Sanjeev Shah",
+      "replacement": "[NAME102]",
+      "start": 32201,
+      "end": 32213
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Yash Shah",
+      "replacement": "[NAME103]",
+      "start": 32217,
+      "end": 32226
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "Sankalp Square II",
+      "replacement": "[LOCATION]",
+      "start": 32427,
+      "end": 32444
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Ellisbridge",
+      "replacement": "[NAME104]",
+      "start": 32518,
+      "end": 32529
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "Anmedabad",
+      "replacement": "[LOCATION]",
+      "start": 32531,
+      "end": 32540
+    },
+    {
+      "entity_type": "PHONE_NUMBER",
+      "original_text": "812 813 0000",
+      "replacement": "[PHONE]",
+      "start": 32564,
+      "end": 32576
+    },
+    {
+      "entity_type": "EMAIL_ADDRESS",
+      "original_text": "customer.care@sterlingaccuris.com",
+      "replacement": "[EMAIL]",
+      "start": 32585,
+      "end": 32618
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Lyubochka Svetka Lab",
+      "replacement": "[NAME105]",
+      "start": 32860,
+      "end": 32880
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "petnple Type Woop Process",
+      "replacement": "[NAME106]",
+      "start": 33173,
+      "end": 33198
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "DR Antibodies",
+      "replacement": "[NAME107]",
+      "start": 34176,
+      "end": 34189
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Siddharth Thummar",
+      "replacement": "[NAME108]",
+      "start": 34323,
+      "end": 34340
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Sanjeev Shah",
+      "replacement": "[NAME109]",
+      "start": 34345,
+      "end": 34357
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Yash Shah",
+      "replacement": "[NAME110]",
+      "start": 34361,
+      "end": 34370
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "MD Path",
+      "replacement": "[NAME111]",
+      "start": 34386,
+      "end": 34393
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "Sankalp Square II",
+      "replacement": "[LOCATION]",
+      "start": 34576,
+      "end": 34593
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Ellisbridge",
+      "replacement": "[NAME112]",
+      "start": 34667,
+      "end": 34678
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "Anmedabad",
+      "replacement": "[LOCATION]",
+      "start": 34680,
+      "end": 34689
+    },
+    {
+      "entity_type": "PHONE_NUMBER",
+      "original_text": "812 813 0000",
+      "replacement": "[PHONE]",
+      "start": 34713,
+      "end": 34725
+    },
+    {
+      "entity_type": "EMAIL_ADDRESS",
+      "original_text": "customer.care@sterlingaccuris.com",
+      "replacement": "[EMAIL]",
+      "start": 34734,
+      "end": 34767
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Lyubochka Svetka Lab",
+      "replacement": "[NAME113]",
+      "start": 35015,
+      "end": 35035
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Hardik Modi",
+      "replacement": "[NAME114]",
+      "start": 37001,
+      "end": 37012
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Sanjeev Shah",
+      "replacement": "[NAME115]",
+      "start": 37017,
+      "end": 37029
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Yash Shah",
+      "replacement": "[NAME116]",
+      "start": 37033,
+      "end": 37042
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "MD Path MD",
+      "replacement": "[NAME117]",
+      "start": 37071,
+      "end": 37081
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "Sankalp Square II",
+      "replacement": "[LOCATION]",
+      "start": 37261,
+      "end": 37278
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Ellisbridge",
+      "replacement": "[NAME118]",
+      "start": 37352,
+      "end": 37363
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "Anmedabad",
+      "replacement": "[LOCATION]",
+      "start": 37365,
+      "end": 37374
+    },
+    {
+      "entity_type": "PHONE_NUMBER",
+      "original_text": "812 813 0000",
+      "replacement": "[PHONE]",
+      "start": 37398,
+      "end": 37410
+    },
+    {
+      "entity_type": "EMAIL_ADDRESS",
+      "original_text": "customer.care@sterlingaccuris.com",
+      "replacement": "[EMAIL]",
+      "start": 37419,
+      "end": 37452
+    },
+    {
+      "entity_type": "PHONE_NUMBER",
+      "original_text": "022321600126",
+      "replacement": "[PHONE]",
+      "start": 37556,
+      "end": 37568
+    },
+    {
+      "entity_type": "PHONE_NUMBER",
+      "original_text": "0.3 1.08 8321",
+      "replacement": "[PHONE]",
+      "start": 37964,
+      "end": 37977
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Saar",
+      "replacement": "[NAME119]",
+      "start": 38387,
+      "end": 38391
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Lyubochka Svetka Lab",
+      "replacement": "[NAME120]",
+      "start": 38560,
+      "end": 38580
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Anmedabad Paldi",
+      "replacement": "[NAME121]",
+      "start": 38927,
+      "end": 38942
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Ehrlich",
+      "replacement": "[NAME122]",
+      "start": 39365,
+      "end": 39372
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Sanjeev Shah",
+      "replacement": "[NAME123]",
+      "start": 39670,
+      "end": 39682
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Yash Shah",
+      "replacement": "[NAME124]",
+      "start": 39686,
+      "end": 39695
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "MD Path",
+      "replacement": "[NAME125]",
+      "start": 39711,
+      "end": 39718
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "Sankalp Square II",
+      "replacement": "[LOCATION]",
+      "start": 39901,
+      "end": 39918
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Ellisbridge",
+      "replacement": "[NAME126]",
+      "start": 39992,
+      "end": 40003
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "Anmedabad",
+      "replacement": "[LOCATION]",
+      "start": 40005,
+      "end": 40014
+    },
+    {
+      "entity_type": "PHONE_NUMBER",
+      "original_text": "812 813 0000",
+      "replacement": "[PHONE]",
+      "start": 40038,
+      "end": 40050
+    },
+    {
+      "entity_type": "EMAIL_ADDRESS",
+      "original_text": "customer.care@sterlingaccuris.com",
+      "replacement": "[EMAIL]",
+      "start": 40059,
+      "end": 40092
     }
   ]
 }
