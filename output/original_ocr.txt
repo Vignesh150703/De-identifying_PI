@@ -4,40 +4,286 @@ Patient Name: Mr. Dummy Age / Sex: 23 YRS/M
 Referred By: Dr. Self Date: 14/05/2021 WILL ll
 Reg. no. 1024 UHID: 1024
 Collected on: 14/05/2021 Reported on: 14/05/2021 03:03 PM
-CLINICAL PATHOLOGY
+HAEMATOLOGY
+COMPLETE BLOOD COUNT (CBC)
 TEST VALUE UNIT REFERENCE
-Urine Routine Examination
-Physical Examination
-Quantity 5 ml
-Colour Pale Yellow Pale Yellow
-Transparency Clear Clear
-Specific Gravity 1.023 1.005 - 1.03
-pH 6.0 5-7
-Leukocytes Absent Absen
-Blood Absent Absen
-Chemical Examination
-Protein / Albumin Absent Absen
-Sugar / Glucose Absent Absen
-Ketone Bodies Present (+) Absent
-Bilirubin Present (+) Absent
-Nitrite Absent Absen
-Microscopic Examination
-R.B.C. Absent /HPF Absen
-Pus Cells Absent /HPF Absen
-Epithilial Cells Absent /HPF Absen
-Casts Absent Absen
-Crystals Absent
-Bacteria Absent Absen
-Others Absent
-~~~ End of report ~~~
-lake Ke bstes.
-Mr. Sachin Sharma Dr. A. K. Asthana
-DMLT, Lab Incharge MBBS, MD Pathologist
-Page 1 of 1
+Hemoglobin 14 g/dl 13-17
+Total Leukocyte Count H = 12,000 cumm 4,000 - 11,000
+Differential Leucocyte Count
+Neutrophils 45 % 40 - 80
+Lymphocyte H 45 % 20 - 40
+Eosinophils 05 % 1-6
+Monocytes 05 % 2-10
+Basophils 00 % <2
+Platelet Count 4.0 lakhs/cumm 1.5-4.5
+Total RBC Count 5.1 million/cumm 4.5-5.5
+Hematocrit Value, Hct H 56 % 40 - 50
+Mean Corpuscular Volume, MCV H 109.8 fL 83 - 101
+Mean Cell Haemoglobin, MCH 27.5 Pg 27 - 32
+Mean Cell Haemoglobin CON, MCHC L 25.0 % 31.5 - 34.5
+
+Subte
+
+Mr. Sachin Sharma
+DMLT, Lab Incharge
+
+Dr. A. K. Asthana
+MBBS, MD Pathologist
+
+Page 1 of 8
 
 Oppostie Hospital
 
 Hospital Road, New Delhi
 
 O11-03849283
+
+Kamal Diagnostic Center
+
+Patient Name: Mr. Dummy Age / Sex: 23 YRS/M
+Referred By: Dr. Self Date: 14/05/2021 WILL ll
+Reg. no. 1024 UHID: 1024
+Collected on: 14/05/2021 Reported on: 14/05/2021 03:03 PM
+BIOCHEMISTRY
+LIVER FUNCTION TEST (LFT)
+TEST VALUE UNIT REFERENCE
+Serum Bilirubin (Total) 1.0 mg/dl 0.2-1.2
+Serum Bilirubin (Direct) 0.2 mg/dl 0-0.3
+Serum Bilirubin (Indirect) 0.80 mg/dl 0.2-1
+SGPT (ALT) 17 U/I 13 - 40
+SGOT (AST) 30 U/| 0-37
+Serum Alkaline Phosphatase 67 U/|
+Serum Protein L 6.0 g/dl 6.4 - 8.3
+Serum Albumin 3.7 g/dl 3.5 - 5.2
+Globulin 2.30 g/dl 1.8-3.6
+A/G Ratio 1.61 1.1-2.1
+KIDNEY FUNCTION TEST (KFT)
+TEST VALUE UNIT REFERENCE
+BUN 9.34 mg/dl 7.9- 20
+Serum Urea 20 mg/dl 19-45
+Serum Creatinine L 05 mg/dl 0.6 - 1.1
+Serum Calcium 8.9 mg/dl 8.8 - 10.6
+Serum Potassium 3.7 mmol/L 3.5 - 5.1
+Serum Sodium 138 mmol/L 136 - 146
+Serum Uric Acid 6.0 mg/dl 3.5 - 7.2
+Urea / Creatinine Ratio 40.00
+BUN / Creatinine Ratio 18.68
+
+Lube pees
+
+Mr. Sachin Sharma Dr. A. K. Asthana
+DMLT, Lab Incharge MBBS, MD Pathologist
+Page 2 of 8
+
+Oppostie Hospital
+Hospital Road, New Delhi
+011-03849283
+Kamal Diagnostic Center
+
+Patient Name: Mr. Dummy Age / Sex: 23 YRS/M
+
+Referred By: Dr. Self Date: 14/05/2021 WILL ll
+
+Reg. no. 1024 UHID: 1024
+Collected on: 14/05/2021 Reported on: 14/05/2021 03:03 PM
+
+LIPID PROFILE
+
+TEST VALUE UNIT REFERENCE
+Total Cholesterol 130 mg/dl 125 - 200
+Triglycerides 190 mg/dl 25 - 200
+HDL Cholesterol 56 mg/dl 35 - 80
+
+LDL Cholesterol L 36.00 mg/dl 85 - 130
+VLDL Cholesterol 38.00 mg/dl 5 - 40
+
+LDL / HDL L 0.64 1.5-3.5
+Total Cholesterol / HDL L 2.32 3.5-5
+
+TG/ HDL 3.39
+
+Non-HDL cholesterol 74.00
+Interpreatation:
+
+Total . F
+
+Cholesterol (mg/dl) | HDL (mg/dl) LDL (mg/dl) Triglycerides (mg/dl)
+
+Desirable <200 | Low <40 Optimal <100 Normal <150
+
+Heh 200-239 | High | >60 Near Optimal | 100-129 | Borderline High | 150-199
+
+High >240 | aad 130-159 | High 200-499
+
+| High 160-189 | Very High >500
+| Very High | > 190
+
+Sul
+
+Mr. Sachin Sharma
+DMLT, Lab Incharge
+
+Dr. A. K. Asthana
+MBBS, MD Pathologist
+Page 3 of 8
+
+Oppostie Hospital
+Hospital Road, New Delhi
+011-03849283
+
+Kamal Diagnostic Center
+
+Patient Name: Mr. Dummy Age / Sex: 23 YRS/M
+Referred By: Dr. Self Date: 14/05/2021 WILL ll
+Reg. no. 1024 UHID: 1024
+Collected on: 14/05/2021 Reported on: 14/05/2021 03:03 PM
+SEROLOGY & IMMUNOLOGY
+
+TEST VALUE UNIT REFERENCE
+Widal Test (Slide Method)
+
+Salmonella Typhi 'O' 1:20
+
+Salmonella Typhi 'H' 1:40
+
+Salmonella Typhi 'AH' 1:160
+
+Salmonella Typhi 'BH' 1:160
+
+Sul
+
+Mr. Sachin Sharma
+DMLT, Lab Incharge
+
+Dr. A. K. Asthana
+MBBS, MD Pathologist
+Page 4 of 8
+
+Oppostie Hospital
+Hospital Road, New Delhi
+011-03849283
+Kamal Diagnostic Center
+
+Patient Name: Mr. Dummy Age / Sex: 23 YRS/M
+Referred By: Dr. Self Date: 14/05/2021 WILL ll
+Reg. no. 1024 UHID: 1024
+Collected on: 14/05/2021 Reported on: 14/05/2021 03:03 PM
+CLINICAL PATHOLOGY
+TEST VALUE UNIT REFERENCE
+Semen Examination
+Physical and Chemical Characteristics
+Quantity 3 ml 2-3
+Colour Whitish
+Ph Alkaline
+Collection At Lab
+Liquefaction Time 30 min
+Semen Fructose POSITIVE
+Microscopic Examination
+Total Sperm Count 155 million/cumm 60 - 200
+Rapid Progressive 40 %
+Sluggish Progressive 30 %
+Non Progressive 10 %
+Immotile 10 %
+Abnormal Forms 10 %
+Epithelial Cells 01 /HPF
+R.B.C. 01 /HPF
+Pus cell 00 /HPF
+
+Adi
+
+Mr. Sachin
+DMLT, Lab
+
+P*
+
+Sharma
+Incharge
+
+Dr. A. K. Asthana
+MBBS, MD Pathologist
+Page 5 of 8
+
+Oppostie Hospital
+Hospital Road, New Delhi
+011-03849283
+Kamal Diagnostic Center
+
+Patient Name: Mr. Dummy Age / Sex: 23 YRS/M
+Referred By: Dr. Self Date: 14/05/2021 WILL ll
+Reg. no. 1024 UHID: 1024
+Collected on: 14/05/2021 Reported on: 14/05/2021 03:03 PM
+
+CYTOLOGY
+
+FNAC (Fine Needle Aspiration)
+SPECIMEN : FNAC - <SPECIMEN NAME>
+MICROSCOPIC EXAMINATION : <MICROSCOPIC EXAMINATION RESULT>
+IMPRESSION : <IMPRESSION>
+NOTE : <NOTE>
+
+Lube pees
+
+Mr. Sachin Sharma Dr. A. K. Asthana
+DMLT, Lab Incharge MBBS, MD Pathologist
+Page 6 of 8
+
+Oppostie Hospital
+Hospital Road, New Delhi
+011-03849283
+
+Kamal Diagnostic Center
+
+Patient Name: Mr. Dummy Age / Sex: 23 YRS/M
+Referred By: Dr. Self Date: 14/05/2021 WILL ll
+Reg. no. 1024 UHID: 1024
+Collected on: 14/05/2021 Reported on: 14/05/2021 03:03 PM
+ENDOCRINOLOGY
+
+THYROID FUNCTION TEST (TFT)
+TEST VALUE UNIT REFERENCE
+Serum Triiodothyronine, T3 2.10 ng/mL 0.69 - 2.15
+Serum thyroxine, T4 59 ng/mL 52 - 127
+Thyroid-Stimulating Hormone, TSH 3.0 pIU/mL 0.3 - 4.5
+
+Lube pees
+
+Mr. Sachin Sharma Dr. A. K. Asthana
+DMLT, Lab Incharge MBBS, MD Pathologist
+Page 7 of 8
+
+Oppostie Hospital
+Hospital Road, New Delhi
+011-03849283
+Kamal Diagnostic Center
+
+Patient Name: Mr. Dummy Age / Sex: 23 YRS/M
+Referred By: Dr. Self Date: 14/05/2021 WILL ll
+Reg. no. 1024 UHID: 1024
+Collected on: 14/05/2021 Reported on: 14/05/2021 03:03 PM
+MISCELLANEOUS
+Mantoux test
+
+5 TU (0.1 ml) of tuberculin is given interdermally read after 48 hours.
+
+ERYTEHMA - 06mm
+INDURATION - 72 hrs
+RESULTS - Negative
+
+Interpretation:
+Negative: Induration less than 05mm.
+
+Equivqcal: Induration between 05-09mm.
+Positive: Induration 10mm or more.
+
+~~~ End of report ~~~
+
+Lube pees
+
+Mr. Sachin Sharma Dr. A. K. Asthana
+DMLT, Lab Incharge MBBS, MD Pathologist
+Page 8 of 8
+
+Oppostie Hospital
+Hospital Road, New Delhi
+011-03849283
 

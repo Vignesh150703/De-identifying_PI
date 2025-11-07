@@ -1,5 +1,5 @@
 {
-  "source": "input/lab2.pdf",
+  "source": "input/lab1.pdf",
   "raw_text_path": "output/original_ocr.txt",
   "redacted_text_path": "output/redacted_text.txt",
   "entities": [
@@ -42,36 +42,505 @@
       "entity_type": "PERSON",
       "original_text": "Sachin Sharma",
       "replacement": "[NAME2]",
-      "start": 839,
-      "end": 852
+      "start": 754,
+      "end": 767
     },
     {
       "entity_type": "PERSON",
       "original_text": "A. K. Asthana",
       "replacement": "[NAME3]",
-      "start": 857,
-      "end": 870
+      "start": 792,
+      "end": 805
     },
     {
       "entity_type": "ORG",
       "original_text": "Oppostie Hospital",
       "replacement": "[ORG]",
-      "start": 924,
-      "end": 941
+      "start": 841,
+      "end": 858
     },
     {
       "entity_type": "LOCATION",
       "original_text": "Hospital Road, New Delhi",
       "replacement": "[LOCATION]",
-      "start": 943,
-      "end": 967
+      "start": 860,
+      "end": 884
     },
     {
       "entity_type": "PHONE_NUMBER",
       "original_text": "11-03849283",
       "replacement": "[PHONE]",
-      "start": 970,
-      "end": 981
+      "start": 887,
+      "end": 898
+    },
+    {
+      "entity_type": "ORG",
+      "original_text": "Kamal Diagnostic Center",
+      "replacement": "[ORG]",
+      "start": 900,
+      "end": 923
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Mr. Dummy",
+      "replacement": "[NAME4]",
+      "start": 939,
+      "end": 948
+    },
+    {
+      "entity_type": "REFERRED_BY",
+      "original_text": "Self",
+      "replacement": "[REFERRED_BY]",
+      "start": 986,
+      "end": 990
+    },
+    {
+      "entity_type": "REG_NO",
+      "original_text": "1024",
+      "replacement": "[REG_NO]",
+      "start": 1025,
+      "end": 1029
+    },
+    {
+      "entity_type": "UHID",
+      "original_text": "1024",
+      "replacement": "[UHID]",
+      "start": 1036,
+      "end": 1040
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Sachin Sharma",
+      "replacement": "[NAME5]",
+      "start": 1849,
+      "end": 1862
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "A. K. Asthana",
+      "replacement": "[NAME6]",
+      "start": 1867,
+      "end": 1880
+    },
+    {
+      "entity_type": "ORG",
+      "original_text": "Oppostie Hospital",
+      "replacement": "[ORG]",
+      "start": 1934,
+      "end": 1951
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "Hospital Road, New Delhi",
+      "replacement": "[LOCATION]",
+      "start": 1952,
+      "end": 1976
+    },
+    {
+      "entity_type": "PHONE_NUMBER",
+      "original_text": "011-03849283",
+      "replacement": "[PHONE]",
+      "start": 1977,
+      "end": 1989
+    },
+    {
+      "entity_type": "ORG",
+      "original_text": "Kamal Diagnostic Center",
+      "replacement": "[ORG]",
+      "start": 1990,
+      "end": 2013
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Mr. Dummy",
+      "replacement": "[NAME7]",
+      "start": 2029,
+      "end": 2038
+    },
+    {
+      "entity_type": "REFERRED_BY",
+      "original_text": "Self",
+      "replacement": "[REFERRED_BY]",
+      "start": 2077,
+      "end": 2081
+    },
+    {
+      "entity_type": "REG_NO",
+      "original_text": "1024",
+      "replacement": "[REG_NO]",
+      "start": 2117,
+      "end": 2121
+    },
+    {
+      "entity_type": "UHID",
+      "original_text": "1024",
+      "replacement": "[UHID]",
+      "start": 2128,
+      "end": 2132
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Sachin Sharma",
+      "replacement": "[NAME8]",
+      "start": 2845,
+      "end": 2858
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "A. K. Asthana",
+      "replacement": "[NAME9]",
+      "start": 2883,
+      "end": 2896
+    },
+    {
+      "entity_type": "ORG",
+      "original_text": "Oppostie Hospital",
+      "replacement": "[ORG]",
+      "start": 2931,
+      "end": 2948
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "Hospital Road, New Delhi",
+      "replacement": "[LOCATION]",
+      "start": 2949,
+      "end": 2973
+    },
+    {
+      "entity_type": "PHONE_NUMBER",
+      "original_text": "011-03849283",
+      "replacement": "[PHONE]",
+      "start": 2974,
+      "end": 2986
+    },
+    {
+      "entity_type": "ORG",
+      "original_text": "Kamal Diagnostic Center",
+      "replacement": "[ORG]",
+      "start": 2988,
+      "end": 3011
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Mr. Dummy",
+      "replacement": "[NAME10]",
+      "start": 3027,
+      "end": 3036
+    },
+    {
+      "entity_type": "REFERRED_BY",
+      "original_text": "Self",
+      "replacement": "[REFERRED_BY]",
+      "start": 3074,
+      "end": 3078
+    },
+    {
+      "entity_type": "REG_NO",
+      "original_text": "1024",
+      "replacement": "[REG_NO]",
+      "start": 3113,
+      "end": 3117
+    },
+    {
+      "entity_type": "UHID",
+      "original_text": "1024",
+      "replacement": "[UHID]",
+      "start": 3124,
+      "end": 3128
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Sachin Sharma",
+      "replacement": "[NAME11]",
+      "start": 3384,
+      "end": 3397
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "A. K. Asthana",
+      "replacement": "[NAME12]",
+      "start": 3422,
+      "end": 3435
+    },
+    {
+      "entity_type": "ORG",
+      "original_text": "Oppostie Hospital",
+      "replacement": "[ORG]",
+      "start": 3470,
+      "end": 3487
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "Hospital Road, New Delhi",
+      "replacement": "[LOCATION]",
+      "start": 3488,
+      "end": 3512
+    },
+    {
+      "entity_type": "PHONE_NUMBER",
+      "original_text": "011-03849283",
+      "replacement": "[PHONE]",
+      "start": 3513,
+      "end": 3525
+    },
+    {
+      "entity_type": "ORG",
+      "original_text": "Kamal Diagnostic Center",
+      "replacement": "[ORG]",
+      "start": 3526,
+      "end": 3549
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Mr. Dummy",
+      "replacement": "[NAME13]",
+      "start": 3565,
+      "end": 3574
+    },
+    {
+      "entity_type": "REFERRED_BY",
+      "original_text": "Self",
+      "replacement": "[REFERRED_BY]",
+      "start": 3612,
+      "end": 3616
+    },
+    {
+      "entity_type": "REG_NO",
+      "original_text": "1024",
+      "replacement": "[REG_NO]",
+      "start": 3651,
+      "end": 3655
+    },
+    {
+      "entity_type": "UHID",
+      "original_text": "1024",
+      "replacement": "[UHID]",
+      "start": 3662,
+      "end": 3666
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "A. K. Asthana",
+      "replacement": "[NAME14]",
+      "start": 4220,
+      "end": 4233
+    },
+    {
+      "entity_type": "ORG",
+      "original_text": "Oppostie Hospital",
+      "replacement": "[ORG]",
+      "start": 4268,
+      "end": 4285
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "Hospital Road, New Delhi",
+      "replacement": "[LOCATION]",
+      "start": 4286,
+      "end": 4310
+    },
+    {
+      "entity_type": "PHONE_NUMBER",
+      "original_text": "011-03849283",
+      "replacement": "[PHONE]",
+      "start": 4311,
+      "end": 4323
+    },
+    {
+      "entity_type": "ORG",
+      "original_text": "Kamal Diagnostic Center",
+      "replacement": "[ORG]",
+      "start": 4324,
+      "end": 4347
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Mr. Dummy",
+      "replacement": "[NAME15]",
+      "start": 4363,
+      "end": 4372
+    },
+    {
+      "entity_type": "REFERRED_BY",
+      "original_text": "Self",
+      "replacement": "[REFERRED_BY]",
+      "start": 4410,
+      "end": 4414
+    },
+    {
+      "entity_type": "REG_NO",
+      "original_text": "1024",
+      "replacement": "[REG_NO]",
+      "start": 4449,
+      "end": 4453
+    },
+    {
+      "entity_type": "UHID",
+      "original_text": "1024",
+      "replacement": "[UHID]",
+      "start": 4460,
+      "end": 4464
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "A. K. Asthana",
+      "replacement": "[NAME16]",
+      "start": 4731,
+      "end": 4744
+    },
+    {
+      "entity_type": "ORG",
+      "original_text": "Oppostie Hospital",
+      "replacement": "[ORG]",
+      "start": 4798,
+      "end": 4815
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "Hospital Road, New Delhi",
+      "replacement": "[LOCATION]",
+      "start": 4816,
+      "end": 4840
+    },
+    {
+      "entity_type": "PHONE_NUMBER",
+      "original_text": "011-03849283",
+      "replacement": "[PHONE]",
+      "start": 4841,
+      "end": 4853
+    },
+    {
+      "entity_type": "ORG",
+      "original_text": "Kamal Diagnostic Center",
+      "replacement": "[ORG]",
+      "start": 4855,
+      "end": 4878
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Mr. Dummy",
+      "replacement": "[NAME17]",
+      "start": 4894,
+      "end": 4903
+    },
+    {
+      "entity_type": "REFERRED_BY",
+      "original_text": "Self",
+      "replacement": "[REFERRED_BY]",
+      "start": 4941,
+      "end": 4945
+    },
+    {
+      "entity_type": "REG_NO",
+      "original_text": "1024",
+      "replacement": "[REG_NO]",
+      "start": 4980,
+      "end": 4984
+    },
+    {
+      "entity_type": "UHID",
+      "original_text": "1024",
+      "replacement": "[UHID]",
+      "start": 4991,
+      "end": 4995
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "A. K. Asthana",
+      "replacement": "[NAME18]",
+      "start": 5299,
+      "end": 5312
+    },
+    {
+      "entity_type": "ORG",
+      "original_text": "Oppostie Hospital",
+      "replacement": "[ORG]",
+      "start": 5366,
+      "end": 5383
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "Hospital Road, New Delhi",
+      "replacement": "[LOCATION]",
+      "start": 5384,
+      "end": 5408
+    },
+    {
+      "entity_type": "PHONE_NUMBER",
+      "original_text": "011-03849283",
+      "replacement": "[PHONE]",
+      "start": 5409,
+      "end": 5421
+    },
+    {
+      "entity_type": "ORG",
+      "original_text": "Kamal Diagnostic Center",
+      "replacement": "[ORG]",
+      "start": 5422,
+      "end": 5445
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Mr. Dummy",
+      "replacement": "[NAME19]",
+      "start": 5461,
+      "end": 5470
+    },
+    {
+      "entity_type": "REFERRED_BY",
+      "original_text": "Self",
+      "replacement": "[REFERRED_BY]",
+      "start": 5508,
+      "end": 5512
+    },
+    {
+      "entity_type": "REG_NO",
+      "original_text": "1024",
+      "replacement": "[REG_NO]",
+      "start": 5547,
+      "end": 5551
+    },
+    {
+      "entity_type": "UHID",
+      "original_text": "1024",
+      "replacement": "[UHID]",
+      "start": 5558,
+      "end": 5562
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "Sachin Sharma",
+      "replacement": "[NAME20]",
+      "start": 5945,
+      "end": 5958
+    },
+    {
+      "entity_type": "PERSON",
+      "original_text": "A. K. Asthana",
+      "replacement": "[NAME21]",
+      "start": 5963,
+      "end": 5976
+    },
+    {
+      "entity_type": "ORG",
+      "original_text": "Oppostie Hospital",
+      "replacement": "[ORG]",
+      "start": 6030,
+      "end": 6047
+    },
+    {
+      "entity_type": "LOCATION",
+      "original_text": "Hospital Road, New Delhi",
+      "replacement": "[LOCATION]",
+      "start": 6048,
+      "end": 6072
+    },
+    {
+      "entity_type": "PHONE_NUMBER",
+      "original_text": "011-03849283",
+      "replacement": "[PHONE]",
+      "start": 6073,
+      "end": 6085
     }
   ]
 }
