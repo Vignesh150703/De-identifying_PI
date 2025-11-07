@@ -1,8 +1,11 @@
-import os
 import json
+import os
+import re
+from pathlib import Path
+
+from src.image_redactor import redact_image
 from src.ocr_extraction import extract_text_from_pdf, extract_text_from_image
 from src.pii_detector import detect_pii
-from src.image_redactor import redact_image
 
 
 # Note: custom field detection (UHID, REFERRED_BY, REG_NO) is implemented in
@@ -113,9 +116,19 @@ def deidentify(input_path, output_dir="output", redact_image_flag=False):
             repl = "[REG_NO]"
         elif etype in ("UHID",):
             repl = "[UHID]"
+        elif etype == "ORG":
+            repl = "[ORG]"
         else:
             # default: mask the text length with asterisks
             repl = "*" * max(4, end - start)
+
+        # Preserve leading/trailing whitespace/newlines from the original span
+        leading_ws = re.match(r"^\s+", orig)
+        trailing_ws = re.search(r"\s+$", orig)
+        if leading_ws and not repl.startswith(leading_ws.group(0)):
+            repl = leading_ws.group(0) + repl
+        if trailing_ws and not repl.endswith(trailing_ws.group(0)):
+            repl = repl + trailing_ws.group(0)
 
         replacements.append((start, end, repl))
         deid_info.append({
@@ -150,9 +163,9 @@ def deidentify(input_path, output_dir="output", redact_image_flag=False):
     metadata_path = os.path.join(output_dir, "deid_metadata.json")
     with open(metadata_path, "w", encoding="utf-8") as f:
         json.dump({
-            "source": input_path,
-            "raw_text_path": raw_text_path,
-            "redacted_text_path": out_text_path,
+            "source": Path(input_path).as_posix(),
+            "raw_text_path": Path(raw_text_path).as_posix(),
+            "redacted_text_path": Path(out_text_path).as_posix(),
             "entities": deid_info,
         }, f, indent=2)
     print(f"[SUCCESS] De-identification metadata saved at {metadata_path}")

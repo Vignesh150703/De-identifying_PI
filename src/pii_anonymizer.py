@@ -20,6 +20,7 @@ def anonymize_text(text, analyzer_results):
         "REFERRED_BY": OperatorConfig.from_json({"type": "replace", "new_value": "[REFERRED_BY]"}),
         "REG_NO": OperatorConfig.from_json({"type": "replace", "new_value": "[REG_NO]"}),
         "UHID": OperatorConfig.from_json({"type": "replace", "new_value": "[UHID]"}),
+        "ORG": OperatorConfig.from_json({"type": "replace", "new_value": "[ORG]"}),
     })
 
     return anonymizer.anonymize(
@@ -27,3 +28,4 @@ def anonymize_text(text, analyzer_results):
         analyzer_results=analyzer_results,
         operators=operators,
     ).text
+
