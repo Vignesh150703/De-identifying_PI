@@ -124,6 +124,38 @@ _LOCATION_DENYLIST = {
     "microscopic",
     "examination",
     "interpretation",
+    "scan",
+    "qr",
+    "code",
+    "information",
+    "client",
+    "status",
+    "sample",
+    "process",
+    "location",
+}
+_LOCATION_KEYWORDS = {
+    "road",
+    "street",
+    "st.",
+    "rd.",
+    "avenue",
+    "colony",
+    "block",
+    "lane",
+    "nagar",
+    "delhi",
+    "gujarat",
+    "india",
+    "floor",
+    "cross",
+    "mandir",
+    "paldi",
+    "railway",
+    "square",
+    "city",
+    "nr.",
+    "b/s.",
 }
 _MEASUREMENT_UNITS = {
     "mg/dl",
@@ -138,6 +170,12 @@ _MEASUREMENT_UNITS = {
     "pg",
     "fl",
     "piu/ml",
+    "mg/dl",
+    "mm/1hr",
+    "/cmm",
+    "/emm",
+    "million/cmm",
+    "units",
 }
 _PHONE_MIN_DIGITS = 7
 
@@ -250,8 +288,12 @@ def _valid_location(result: RecognizerResult, text: str) -> bool:
     has_space = " " in normalized
     has_comma = "," in normalized
     has_digit = any(char.isdigit() for char in normalized)
+    keyword_hit = any(keyword in normalized for keyword in _LOCATION_KEYWORDS)
 
     if not (has_space or has_comma or has_digit):
+        return False
+
+    if not keyword_hit and not has_digit:
         return False
 
     if normalized in {"new delhi", "delhi"}:
@@ -296,11 +338,13 @@ def _valid_person(result: RecognizerResult, text: str) -> bool:
 
 
 def _in_measurement_context(text: str, start: int, end: int) -> bool:
-    context_window = text[max(0, start - 10) : min(len(text), end + 10)].lower()
+    context_window = text[max(0, start - 12) : min(len(text), end + 12)].lower()
     for unit in _MEASUREMENT_UNITS:
         if unit in context_window:
             return True
     if re.search(r"\d+\.\d+", context_window):
+        return True
+    if re.search(r"\d+\s*-\s*\d+", context_window):
         return True
     return False
 
@@ -402,6 +446,12 @@ def detect_pii(text: str) -> List[RecognizerResult]:
                 continue
             if not _valid_location(result, text):
                 continue
+            span_text = text[result.start : result.end]
+            if _looks_like_facility(span_text):
+                result.entity_type = "ORG"
+                result = _trim_org_span(result, text)
+                filtered_results.append(result)
+                continue
         if result.entity_type == "PHONE_NUMBER" and not _valid_phone(result, text):
             continue
         span_text = text[result.start : result.end]
@@ -436,8 +486,15 @@ def detect_pii(text: str) -> List[RecognizerResult]:
             result = cleaned
         if result.entity_type == "ORG":
             result = _trim_org_span(result, text)
-        if result.entity_type == "LOCATION" and not _valid_location(result, text):
-            continue
+        if result.entity_type == "LOCATION":
+            if not _valid_location(result, text):
+                continue
+            span_text = text[result.start : result.end]
+            if _looks_like_facility(span_text):
+                result.entity_type = "ORG"
+                result = _trim_org_span(result, text)
+                filtered_results.append(result)
+                continue
         if result.entity_type == "PHONE_NUMBER" and not _valid_phone(result, text):
             continue
         if result.entity_type in {"UHID", "REG_NO", "REFERRED_BY"}:
